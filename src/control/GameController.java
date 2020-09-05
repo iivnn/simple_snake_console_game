@@ -9,7 +9,7 @@ import snakeposition.Snake;
  *
  * @author ivan
  */
-public class GameController implements Runnable{
+public class GameController implements Runnable {
 
     private Board board;
     private Snake snake;
@@ -107,5 +107,5 @@ public class GameController implements Runnable{
     public void run() {
         this.startGame();
     }
-    
+
 }

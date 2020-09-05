@@ -95,24 +95,24 @@ public class Snake {
     }
 
     public void setDirection(Direction direction) {
-        switch (direction){
+        switch (direction) {
             case DOWN:
-                if(this.direction != Direction.UP){
+                if (this.direction != Direction.UP) {
                     this.direction = direction;
                 }
                 break;
             case UP:
-                if(this.direction != Direction.DOWN){
+                if (this.direction != Direction.DOWN) {
                     this.direction = direction;
                 }
                 break;
             case LEFT:
-                if(this.direction != Direction.RIGHT){
+                if (this.direction != Direction.RIGHT) {
                     this.direction = direction;
                 }
                 break;
             case RIGHT:
-                if(this.direction != Direction.LEFT){
+                if (this.direction != Direction.LEFT) {
                     this.direction = direction;
                 }
                 break;

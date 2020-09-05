@@ -21,8 +21,6 @@ public class Frame {
         this.posX = posX;
         this.posY = posY;
     }
-    
-    
 
     @SuppressWarnings("OverridableMethodCallInConstructor")
     public Frame(int posX, int posY) {
@@ -74,7 +72,7 @@ public class Frame {
     }
 
     public String toStringMove() {
-        return "position [posX=" + posX + ", posY=" +  posY + "]";
+        return "position [posX=" + posX + ", posY=" + posY + "]";
     }
 
 }

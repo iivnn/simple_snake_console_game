@@ -93,9 +93,7 @@ public class Board {
             }
             boardString += "\n";
         }
-        return boardString ;
+        return boardString;
     }
-    
+
 }
-
-
