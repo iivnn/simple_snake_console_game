@@ -69,11 +69,10 @@ public class GameController implements Runnable {
                 snake.growQueue();
                 board.insertFood();
             }
-            System.out.println("\n\n\n\n\n\n\n\n\n\n");
             System.out.println(board.toString());
             running = !lost();
             try {
-                Thread.sleep(300);
+                Thread.sleep(250);
             } catch (InterruptedException ex) {
                 running = false;
                 System.err.println("erro : " + ex);
