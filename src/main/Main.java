@@ -175,7 +175,6 @@ public class Main extends javax.swing.JFrame {
                 runnable.getSnake().setDirection(Direction.DOWN);
             }
         });
-
         rootPane.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(KeyStroke.getKeyStroke(KeyEvent.VK_UP, 0), "UP");
         rootPane.getRootPane().getActionMap().put("UP", new AbstractAction("UP") {
             @Override
@@ -183,7 +182,6 @@ public class Main extends javax.swing.JFrame {
                 runnable.getSnake().setDirection(Direction.UP);
             }
         });
-
         rootPane.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(KeyStroke.getKeyStroke(KeyEvent.VK_LEFT, 0), "LEFT");
         rootPane.getRootPane().getActionMap().put("LEFT", new AbstractAction("LEFT") {
             @Override
@@ -191,7 +189,6 @@ public class Main extends javax.swing.JFrame {
                 runnable.getSnake().setDirection(Direction.LEFT);
             }
         });
-
         rootPane.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(KeyStroke.getKeyStroke(KeyEvent.VK_RIGHT, 0), "RIGHT");
         rootPane.getRootPane().getActionMap().put("RIGHT", new AbstractAction("RIGHT") {
             @Override
